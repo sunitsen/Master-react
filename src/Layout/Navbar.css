@@ -1,0 +1,37 @@
+/* Navbar CSS */
+
+/* General Link Styles */
+.nav-item {
+    color: #fff !important;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .nav-item:hover {
+    color: #f0a500 !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Active Link Style */
+  .nav-item.active {
+    color: #f0a500 !important;
+    font-weight: bold;
+    border-bottom: 2px solid #f0a500;
+  }
+  
+  /* Navbar Background */
+  .navbar-header {
+    background-color: #343a40;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .nav-item {
+      padding: 0.75rem;
+      text-align: center;
+    }
+  }
+  

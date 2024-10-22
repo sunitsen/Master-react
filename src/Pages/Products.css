@@ -1,0 +1,39 @@
+/* Products.css */
+
+.products {
+    margin: 20px;
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0; /* Light border for each card */
+    border-radius: 8px; /* Optional: Rounded corners */
+    text-align: center; /* Center text in the card */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    height: 180px; /* Set height to 180px */
+    width: 180px; /* Set width to 180px */
+    object-fit: cover; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+  }
+  
+  .card-body {
+    padding: 1rem; /* Space around the card body */
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
